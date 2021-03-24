@@ -1,0 +1,48 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to right  , #fffff0 ,#dfedcf , #17BEAB);
+    color :#435356;
+    min-height: 100vh;
+}
+
+button{
+    color: #435356;
+    background: none;
+    cursor:pointer;
+    transition: all 0.3s ease;
+    border:none;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    z-index: 0.8;
+    
+}
+ button:hover{
+    background: #e4a199;
+    color:white;
+
+  }
+
+  .talk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.snippet{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.faq{
+
+    justify-content: center;
+    padding-top:500px;
+    
+}
+
+
